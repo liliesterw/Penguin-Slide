@@ -64,7 +64,7 @@ class Grid
 {
 private:
 	int _w, _h,_c;
-	int counter;//class grid tapi g simpen array 2d?pindah nde global..wkwkkwk.. soale pas ngeprint e bingung pisan..
+	int counter;
 	int _grid[10][10];
 	int _ans[10][10];
 	int moves;
@@ -273,20 +273,13 @@ public:
 	{
 
 		return traceLight(_startX,_startY,_direction,0);
-		//tak kasih hint
-		//setiap kali pindah kotak disimpen koord e
-		//terus di return ke game
-		//setiap 0,5 detik posisi robot di set koord e
-		// contoh misal e posisi[5]; y brarti setiap 0,5 detik nanti bakal pindah dari posisi[0], posisi[1], posisi[2] dst return ke game mksde?
-		//berarti aku pny 1 array kan? xg menyimpan robot ini lewat mana ae, btw ini km tak ajari vector ae supaya km lebih gmpg bikin apa ae
-		//tak return ke game supaya game tau robot harus lwat mana ae h
+		
 	}
 	int traceLight(int b,int k, int lightDirection, int _stepToGoal)
 	{
 		indexPath.push_back(IndexArah(b,k,lightDirection));
 		//cout<<indexPath.size()<<endl;
-		//inti e gini setiap kali aku nerusno sinar ke kotak laine step ku bertambah
-		//kan kapan hari km ws simpen to jumlah kotak kosong xg dilewatin mb sinar e? uda? uda itu pembelok km itung sebagi step ga? nda
+		
 		if (!isValid(b, k))
 			return 0;
 		if(_grid[b][k]==9) {cout<<_stepToGoal<<endl;return _stepToGoal;}
@@ -305,16 +298,11 @@ public:
 			if (lightDirection == 3&& _grid[b][k] == -6) te = traceLight(b, k-1, 3,_stepToGoal+1);//Meneruskan sinar ke kiri
 			//cout<<_stepToGoal<<te<<endl;
 			if (te> 0){return te;}
-		}//kalo mw semakin banyak pembelok e tambahi ae else if
-		/*else if (_grid[b][k] == 100)
-		{
-		//dee ngapain gitu tok to? haha cobaa kalo 100 denerusno ke >awal e dari mana? bawah atas kiri kanan? dari kiri ka kanan
-		//parameter ke 3 function e itu kan nyimpenarah
-		//if(lightDirection==kanan) traceLight(b,k+1,kanan,_stepToGoal)//ke kanan berarti b tetep tapi k+1, beres :D okey2 return? temp?percuma se pasti 0 nti hasil e soal e kan dee g bertambah sama sekali alias lek kenal 0 lgsg di return 0 jadi g diterusno klo 0, btw hruse gini wes jalan
-		}*/
+		}
+		
 
 
-		else if (_grid[b][k] == -2 && lightDirection == 3) //ditambahi gini bukan? iya tapi aku gtw lho itu lightdirection mu ws bener atau g,liaten nd catetan mu..harus e wes bener
+		else if (_grid[b][k] == -2 && lightDirection == 3)
 		{
 			int temp = traceLight(b - 1, k, 0,_stepToGoal);//Membelokkan sinar ke atas 1
 			if(temp>0) return temp;
