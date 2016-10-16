@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include "tes.h"
 #include<iostream>
 #include<time.h>
 #include<stdlib.h>
