@@ -18,7 +18,8 @@ The objective of the game is to help the missing penguin(top left, first index) 
 <br>
 ![](Gallery/home.PNG)
 
-
+<br>
 ![](Gallery/game%20play.PNG)
 
-![win](Gallery/win.PNG)
+<br>
+![](Gallery/win.PNG)
