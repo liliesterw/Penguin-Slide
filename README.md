@@ -20,4 +20,4 @@ The objective of the game is to help the missing penguin(top left, first index) 
 
 ![](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/game%20play.PNG)
 
-[](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/win.PNG)
+![](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/win.PNG)
