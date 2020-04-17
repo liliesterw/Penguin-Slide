@@ -16,8 +16,8 @@ The objective of the game is to help the missing penguin(top left, first index) 
 
 ## Gallery 
 
-![HOME](https://github.com/liliesterw/PenguinSlide/tree/master/Gallery/home.PNG)
+![](https://github.com/liliesterw/PenguinSlide/tree/master/Gallery/home.PNG)
 
-![Game Play](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/game%20play.PNG)
+![](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/game%20play.PNG)
 
-![Win state](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/win.PNG)
+[](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/win.PNG)
