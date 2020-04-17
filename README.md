@@ -16,7 +16,7 @@ The objective of the game is to help the missing penguin(top left, first index) 
 
 ## Gallery 
 <h3>Main Page</h3> 
-![home](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/home.PNG)
+![](https://cdn.mathpix.com/snip/images/B30WuolLcVAKfydaNQ-DjzPfIEYZycS7jeCbulU7HEA.original.fullsize.png)
 
 <h3>Game Play</h3> 
 ![game play](Gallery/game%20play.PNG)
