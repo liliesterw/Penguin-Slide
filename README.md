@@ -15,11 +15,11 @@ This is a <b>windows</b> desktop game, built for my school's logic competition e
 The objective of the game is to help the missing penguin(top left, first index) to go back to its family (in the right side of the box). The penguin cannot (literally) move, hence once the path is correctly connected to its family, press the Go! button to check the path.
 
 ## Gallery 
+Main Page
+![home](https://github.com/liliesterw/PenguinSlide/tree/master/Gallery/home.PNG)
 
-![](https://github.com/liliesterw/PenguinSlide/tree/master/Gallery/home.PNG)
+Game Play
+![game play](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/game%20play.PNG)
 
-
-![](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/game%20play.PNG)
-
-
-![](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/win.PNG)
+Winning State
+![win](https://github.com/liliesterw/PenguinSlide/blob/master/Gallery/win.PNG)
