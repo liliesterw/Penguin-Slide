@@ -18,8 +18,7 @@ The objective of the game is to help the missing penguin(top left, first index) 
 <h3>Main Page</h3> 
 ![](https://cdn.mathpix.com/snip/images/B30WuolLcVAKfydaNQ-DjzPfIEYZycS7jeCbulU7HEA.original.fullsize.png)
 
-<h3>Game Play</h3> 
-![game play](Gallery/game%20play.PNG)
 
-<h3>Winning State</h3> 
+![](Gallery/game%20play.PNG)
+
 ![win](Gallery/win.PNG)
